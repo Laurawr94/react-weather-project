@@ -5,7 +5,7 @@ import "./App";
 
 export default function SearchEngine() {
   const [city, setCity] = useState("");
-  const [loaded, setLoaded] = useState(false);
+  const [, setLoaded] = useState(false);
   const [weather, setWeather] = useState({});
 
   function displayWeather(response) {
