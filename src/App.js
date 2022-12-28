@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import SearchEngine from "./SearchEngine";
 import Forecast from "./Forecast";
 
@@ -19,6 +18,7 @@ function App() {
         </a>
         <small>, by </small>
         <a
+          rel="noreferrer"
           href="https://www.linkedin.com/in/laura-doherty-6548a766/"
           target="_blank"
         >
